@@ -331,6 +331,7 @@ footer{
 
     nav{
         padding: 12px 13px;
+        border-bottom: 1px solid orange;
     }
 
     nav > img {
