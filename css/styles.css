@@ -108,15 +108,26 @@ nav > img {
     width: 100%;
 }
 
+/* Marqueee */
+.marq{
+    font-size: 25px;
+    margin-top: 2rem;
+    background: linear-gradient(#6f94e2, #2575fc);
+    color: white;
+    padding: 1rem 0;
+}
+
 /* Curriculum Section */
 
 .curriculum{
     padding: 0 20rem;
+    background: url(../assets/bg.png);
+    
 }
 .curriculum > h1, .stories > h1{
     font-size: 46px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 80px;
 }
 .card-container{
@@ -179,8 +190,9 @@ nav > img {
 
 /* Story  */
 .stories{
-    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    /* background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%); */
     padding-bottom: 60px;
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 .story-container{ 
     display: grid;
@@ -209,6 +221,7 @@ nav > img {
     width: 80%;
     margin-left: 2rem;
     margin-bottom: 2rem;
+    font-family: "Raleway", serif;
 }
 
 
@@ -346,6 +359,7 @@ footer{
     /* Curriculum */
     .curriculum{
         padding: 0 2rem;
+        
     }
 
     .curriculum > h1{
